@@ -11,14 +11,4 @@ PUT {{host}}/twitter
 PUT {{host}}/twitter
 
 ### 3
-PUT {{host}}/twitter/tweets/1
-Content-Type: application/json
-
-{
-  "course": "Kafka for beginners",
-  "student": "Aliaksei Litvin",
-  "module": "Elasticsearch"
-}
-
-### 4
 GET {{host}}/twitter/tweets/1258415831467384833
